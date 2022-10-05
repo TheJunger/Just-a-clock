@@ -1,0 +1,63 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    border: 10px solid gray;
+}
+
+.reloj {
+    display: flex;
+    background: linear-gradient(#111, #666);
+    border: 2px solid #000;
+    border-radius: 2px;
+    width: 15vw;
+    height: 10vh;
+    min-width: 206px;
+    min-height: 62px;
+}
+
+.reloj div {
+    flex-grow: 1;
+    border-radius: 2px;
+    border: 2px solid #000;
+    text-align: center;
+    color: #fff;
+    padding: 5px 9px;
+    font-size: 7vh;
+    font-family: monospace;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .reloj {
+        width: 100%;
+        height: auto;
+    }
+
+    .reloj div {
+        font-size: 15vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
